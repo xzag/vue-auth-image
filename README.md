@@ -17,7 +17,7 @@ the `data:image/FILETYPE;base64` URI scheme.
 
 ## Requirements
 
-- vue: ^2.0.0
+- vue: \^2.0.0
 - axios: >= 0.5.0
 
 ## Install
@@ -31,14 +31,14 @@ $ npm install vue-auth-image --save
 From CDN:
 
 ``` html
-<script src="https://cdn.jsdelivr.net/npm/vue-touch@0.0.1/vue-auth-image.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-auth-image@0.0.1/vue-auth-image.js"></script>
 <!-- OR -->
-<script src="https://cdn.jsdelivr.net/npm/vue-touch@0.0.1/vue-auth-image.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-auth-image@0.0.1/vue-auth-image.min.js"></script>
 ```
 
 ## API
 
-### `auth-image`
+### auth-image
 
 A directive that requests an image URI asynchronously and embed it into your
 `<img>` tag using the [data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme).
@@ -57,7 +57,7 @@ axios.defaults.headers.common['Authorization'] = authHeader;
 
 Once the directive is registered, you can use it in your Vue templates.
 
-``` js
+``` html
 <template>
   <div>
     <img v-auth-img="https://api.app.com/images/authenticatedImg.png">
