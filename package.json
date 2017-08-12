@@ -1,6 +1,6 @@
 {
   "name": "vue-auth-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue directive to load and display secured images",
   "author": "Jean Lalande <jeanlalande@gmail.com>",
   "license": "MIT",
